@@ -1,8 +1,7 @@
 import java.util.Scanner
 
-val scan = Scanner(System.`in`)
 
-class Cat(val name: String){
+class Cat1(val name: String){
     init {
         println("Создан новый объект типа Cat с именем ${name}")
     }
@@ -12,7 +11,7 @@ class Cat(val name: String){
 }
 
 fun main(args: Array<String>) {
-    val cat = Cat(scan.next())
+    val cat = Cat1(scan.next())
     val num = scan.nextInt()
 
     repeat(num) {
